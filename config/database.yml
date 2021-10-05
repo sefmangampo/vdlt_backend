@@ -51,6 +51,5 @@ test:
 #
 production:
   <<: *default
-  database: vdlt_be_jwt_production
-  username: vdlt_be_jwt
-  password: <%= ENV['VDLT_BE_JWT_DATABASE_PASSWORD'] %>
+  database: u475013830_vdlt
+
